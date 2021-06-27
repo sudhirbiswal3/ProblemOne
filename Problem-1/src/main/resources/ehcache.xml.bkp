@@ -1,0 +1,14 @@
+<ehcache>
+	<diskStore path="java.io.tmpdir" />
+
+	<defaultCache maxElementsInMemory="2" 
+			eternal="false"
+			overflowToDisk="false" 
+			timeToLiveSeconds="2" />
+			
+	<cache name="weatherCache" 
+			maxElementsInMemory="2"
+			eternal="false" 
+			overflowToDisk="false" 
+			timeToLiveSeconds="2" />
+</ehcache>
